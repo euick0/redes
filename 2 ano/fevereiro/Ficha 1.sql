@@ -115,7 +115,7 @@ INSERT INTO FILIAÇÃO (f_iggador, f_equipa, f_anos, f_media) VALUES
 select  * from  EQUIPAS;
 select * from EQUIPAS where e_numero = 12;
 select  EQUIPAS.e_numero, EQUIPAS.e_nome from EQUIPAS;
-select  JOGADORES.j_idade, JOGADORES.j_nome from JOGADORES where j_idade >30;
+select  JOGADORES.j_numero, JOGADORES.j_nome from JOGADORES where j_idade >30;
 select * FROM EXPERIÊNCIA where ex_tipo = 'juniores' or ex_anos > 10;
 select BOLAS.b_equipa FROM BOLAS where b_fabricante = 'Adidas';
 select * FROM BOLAS where b_fabricante = 'Reebok' or b_fabricante = 'Olimpic';
